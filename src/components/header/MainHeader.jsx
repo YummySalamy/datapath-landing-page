@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderLogo from '/datapath-logo.png';
 import './assets/Header.css';
@@ -22,7 +22,7 @@ const header_items = [
     },
     {
         name: 'Blog',
-        link: '/contact',
+        link: '/blog',
     }
 ];
 
