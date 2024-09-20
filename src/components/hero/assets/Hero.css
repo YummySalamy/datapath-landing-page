@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    /* width: 70%; */
+    background-color: #05192D;
+    color: #f4f4f4;
     gap: 1em;
     padding: 4em;
     @media screen and (max-width: 768px) {
@@ -16,12 +18,12 @@
 }
 
 .basic-hero p {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 300;
 }
 
 .basic-hero__highlight {
-    color: #ff8f26;
+    color: #fb5604;
     font-weight: 500;
     filter: drop-shadow(0 2px 20px #ff8512aa);
 }
@@ -30,7 +32,7 @@
     padding: 0.5em 1em;
     border: none;
     border-radius: 0.5em;
-    background-color: #3d348b;
+    background-color: #34508b;
     color: white;
     font-size: 1.5em;
     font-weight: 500;
@@ -39,5 +41,5 @@
 }
 
 .hero-button:hover {
-    background-color: #646cff;
+    background-color: #f57429;
 }

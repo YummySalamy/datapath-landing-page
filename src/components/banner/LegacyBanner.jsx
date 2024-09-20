@@ -10,7 +10,7 @@ const LegacyBanner = () => {
     <section className="legacy-banner">
       <h2>LEGADO</h2>
       <h1>DataPath se fundó en 2020.</h1>
-      <p>Desde entonces, más de 10,000 graduados han comenzado un nuevo futuro con nosotros.</p>
+      <p>Desde entonces, más de 25,000 graduados (LATAM y España) han comenzado un nuevo futuro con nosotros.</p>
       
       <div className="stats-container">
         <div className="stat-card">

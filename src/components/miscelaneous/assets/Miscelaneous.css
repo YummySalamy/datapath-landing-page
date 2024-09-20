@@ -5,7 +5,7 @@
     gap: 1em;
     width: 100%;
     padding-block-start: 2em;
-    background: linear-gradient(125deg, #f4f4f4, #f4f4f4, #3d348b);
+    background: linear-gradient(125deg, #f4f4f4, #f4f4f4, #05192D);
 }
 
 .apply-now__left-container {
@@ -26,10 +26,13 @@
     padding: 1em 2em;
     border: none;
     border-radius: 30px;
-    background-color: #3d348b;
+    background-color: #134679;
     color: white;
     font-size: 1em;
     cursor: pointer;
+    &:hover {
+        background-color: #f57429;
+    }
 }
 
 .apply-now__right-container {

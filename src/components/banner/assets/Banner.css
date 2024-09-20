@@ -2,8 +2,8 @@
   width: 100%;
   height: 350px;
   overflow: hidden;
-  /* background-color: #333; */
-  background: linear-gradient(#f4f4f4, #f4f4f4, #3d348b);
+  background-color: #05192D;
+  /* background: linear-gradient(#05192D, #05192D, #3d348b); */
   animation: fadeIn 0.5s;
   padding-top: 2em;
 }
@@ -17,7 +17,7 @@
         transform: translate(0, -10px);
         z-index: 9999;
         border-radius: 30px;
-        box-shadow: 0 0 24px #e88427;
+        box-shadow: 0 0 24px #fb5604;
     }
     transition: all 0.3s;
 }
@@ -25,12 +25,14 @@
 .courses-logos {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .courses-logos__title {
     font-weight: 500;
     text-align: left;
     margin-bottom: 0;
+    padding-inline: 2em;
 }
 
 .courses-logos__title::before {
@@ -107,30 +109,30 @@
 }
 
 .courses-beneficts__button {
-    background-color: #3d348b;
+    background-color: #34508b;
     margin-top: 1em;
     font-size: 1.3em;
     transition: all 300ms;
 }
 
 .courses-beneficts__button:hover {
-    background-color: #646cff;
+    background-color: #fb5604;
 }
 
 .legacy-banner {
     /* background-color: #0d1b2a; */
-    background-color: #111;
-    color: #fff;
+    background-color: #FFFBF3;
+    color: #333;
     text-align: center;
     padding: 50px 20px;
     width: 100%;
-    border-bottom: 2px solid #333;
+    border-block: 2px solid #333;
   }
   
 .legacy-banner h2 {
     font-size: 16px;
     letter-spacing: 2px;
-    color: #e88427;
+    color: #fb5604;
     margin-bottom: 10px;
 }
   
@@ -142,7 +144,7 @@
 .legacy-banner p {
     font-size: 18px;
     margin-bottom: 40px;
-    color: #d3d3d3;
+    color: #333;
 }
   
 .stats-container {
@@ -172,13 +174,13 @@
   
 .circle {
     fill: none;
-    stroke: #e88427;
+    stroke: #fb5604;
     stroke-width: 3.8;
 }
   
 .stars {
     font-size: 24px;
-    color: #e88427;
+    color: #fb5604;
 }
   
 .badge-icon {
@@ -213,6 +215,43 @@
 .partners img:hover {
     opacity: 1;
 }
+/* estilos de company logos xd */
+.company-logos-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 100%;
+  }
+  
+  .company-logos-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .company-logos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .company-logo {
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .company-logo:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px #fb5604);
+  }
+  
+  .company-logo img {
+    max-width: 70px;
+    height: auto;
+  }
+  
   
 @media (max-width: 768px) {
     .stats-container {

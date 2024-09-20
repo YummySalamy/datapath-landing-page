@@ -6,7 +6,9 @@ import BasicFooter from '../components/footer/BasicFooter';
 import CoursesLogos from '../components/banner/CoursesLogos';
 import CoursesBeneficts from '../components/banner/CoursesBeneficts';
 import LegacyBanner from '../components/banner/LegacyBanner';
+import CompanyLogos from '../components/banner/CompanyLogos';
 import UsersReviews from '../components/reviews/UsersReviews';
+import TestimonialList from '../components/testimonials/TestimonialsList';
 import ApplyNow from '../components/miscelaneous/ApplyNow';
 import './assets/Views.css';
 
@@ -34,9 +36,11 @@ const LandingPage = () => {
             />
             <VideoBanner iframeSrc={video_data.iframeSrc} />
             <CoursesLogos />
+            <CompanyLogos />
             <CoursesBeneficts />
             <LegacyBanner />
             {/* <UsersReviews /> */}
+            <TestimonialList />
             <ApplyNow />
             <BasicFooter />
         </div>
