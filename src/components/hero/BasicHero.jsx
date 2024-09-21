@@ -5,13 +5,16 @@ import './assets/Hero.css';
 const BasicHero = ({ title, description, buttonText, buttonLink }) => {
     return (
         <div className='basic-hero'>
-            <h1>Empieza a darle forma a tu futuro con <span className='basic-hero__highlight'>DataPath</span></h1>
-            <p>{description}</p>
-            <Link to={buttonLink} className='hero-button-link'>
-                <button className='hero-button'>
-                    {buttonText}
-                </button>
-            </Link>
+            <div className='basic-hero__content'>
+                <h1 className='basic-hero__highlight'>Inicia tu carrera en Data e Inteligencia Artificial</h1>
+                {/* <span className='basic-hero__highlight'>DataPath</span> */}
+                <p>{description}</p>
+                <Link to={buttonLink} className='hero-button-link'>
+                    <button className='hero-button'>
+                        {buttonText}
+                    </button>
+                </Link>
+            </div>
         </div>
     )
 }
