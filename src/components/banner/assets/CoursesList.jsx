@@ -26,6 +26,7 @@
 const threeCourses = [
     {
         title: "Data Scientist",
+        category: "Data Analyst",
         course_options: ["Bootcamp", "Tiempo parcial"],
         description: "Conviértete en un científico de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
         image: "https://datascientest.com/es/files/2022/02/Property-1DS.png",
@@ -33,6 +34,7 @@ const threeCourses = [
     },
     {
         title: "Data Analyst",
+        category: "Data Analyst",
         course_options: ["Bootcamp", "Tiempo parcial"],
         description: "Conviértete en un analista de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
         image: "https://datascientest.com/es/files/2022/02/Property-1DA.png",
@@ -40,6 +42,7 @@ const threeCourses = [
     },
     {
         title: "Data Engineer",
+        category: "Machine Learning",
         course_options: ["Bootcamp", "Tiempo parcial"],
         description: "Conviértete en un ingeniero de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
         image: "https://datascientest.com/es/files/2022/02/Property-1DE.png",

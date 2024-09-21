@@ -26,8 +26,10 @@
     transition: all 0.3s;
 }
 
+/* Estilos generales para el componente */
 .courses-logos {
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 100%;
 }
@@ -47,6 +49,34 @@
     margin: 0.5em 0;
 }
 
+/* Menú de categorías */
+.courses-logos__menu {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1em 2em;
+    gap: 1em;
+}
+
+.courses-logos__menu-item {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7eb72;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.courses-logos__menu-item:hover {
+    background-color: #72dbeb;
+}
+
+.courses-logos__menu-item.active {
+    background-color: #72dbeb;
+    font-weight: bold;
+}
+
 .course-title {
     text-align: left;
     margin: 0;
@@ -62,10 +92,6 @@
 .course-options {
     display: flex;
     gap: 0.6em;
-}
-
-.course-options:last-child {
-    background-color: #72dbeb;
 }
 
 .course-options__item {
@@ -86,6 +112,17 @@
 
 .course-button {
     margin-top: auto;
+    background-color: #72dbeb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.course-button:hover {
+    background-color: #62c7d7;
 }
 
 .courses-beneficts {
