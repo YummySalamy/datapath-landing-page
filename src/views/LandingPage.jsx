@@ -12,6 +12,7 @@ import CompanyHighlight from '../components/miscelaneous/CompanyHighlight';
 import UsersReviews from '../components/reviews/UsersReviews';
 import TestimonialList from '../components/testimonials/TestimonialsList';
 import ApplyNow from '../components/miscelaneous/ApplyNow';
+import WhatsappContact from '../components/floating-buttons/WhatsappContact';
 import './assets/Views.css';
 
 const hero_data = {
@@ -29,6 +30,7 @@ const LandingPage = () => {
     
     return (
         <div className='landing-page'>
+            <WhatsappContact />
             <MainHeader />
             <div style={{ display: 'flex',}}>
                 <BasicHero 
