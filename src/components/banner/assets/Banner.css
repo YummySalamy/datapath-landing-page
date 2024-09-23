@@ -112,7 +112,7 @@
 
 .course-button {
     margin-top: auto;
-    background-color: #72dbeb;
+    background-color: #333;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -121,8 +121,12 @@
     color: #fff;
 }
 
+.course-button:focus {
+    outline: none;
+}
+
 .course-button:hover {
-    background-color: #62c7d7;
+    background-color: #fb5604;
 }
 
 .courses-beneficts {
