@@ -15,6 +15,7 @@
 
 .basic-hero h1 {
     font-weight: 500;
+    font-size: 4em;
 }
 
 .basic-hero p {
@@ -31,9 +32,9 @@
 }
 
 .basic-hero__highlight {
-    color: #fb5604;
+    color: #f4f4f4;
     font-weight: 500;
-    filter: drop-shadow(0 2px 20px #ff8512aa);
+    /* filter: drop-shadow(0 2px 20px #ff8512aa); */
 }
 
 .basic-hero__buttons {
@@ -43,9 +44,9 @@
 
 .hero-button {
     padding: 0.5em 1em;
-    border: none;
+    border: 1px solid #f4f4f4;
     border-radius: 0.5em;
-    background-color: #34508b;
+    background-color: transparent;
     color: white;
     font-size: 1.5em;
     font-weight: 500;
@@ -54,12 +55,15 @@
 }
 
 .hero-button:hover {
-    background-color: #f57429;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .green__highlight {
-    background-color: #2a9d54;
-    color: white;
+    border: transparent;
+    background-color: rgb(3 239 98);
+    color: #333;
     padding: 0.5em 1em;
     border-radius: 0.5em;
 }
+
