@@ -31,6 +31,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: #05192D;
+    color: #f4f4f4;
     width: 100%;
 }
 
@@ -60,20 +62,21 @@
 .courses-logos__menu-item {
     padding: 0.5em 1em;
     border: none;
-    border-radius: 5px;
-    background-color: #e7eb72;
-    color: #333;
+    border-radius: 30px;
+    background-color: none;
+    background: none;
+    color: #f4f4f4;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s;
 }
 
 .courses-logos__menu-item:hover {
-    background-color: #72dbeb;
+    background-color: #f9ac3a;
 }
 
 .courses-logos__menu-item.active {
-    background-color: #72dbeb;
+    background-color: #f9ac3a;
     font-weight: bold;
 }
 
@@ -99,9 +102,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0.3em;
-    border-radius: 30px;
+    padding: 0.4em;
+    border-radius: 4px;
     background-color: #e7eb72;
+    color: #333;
     font-size: 12px;
 }
 
@@ -112,7 +116,7 @@
 
 .course-button {
     margin-top: auto;
-    background-color: #333;
+    background-color: #5583e6;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -136,6 +140,9 @@
     justify-content: center;
     padding: 2em;
     margin-top: 2em;
+    background: #05192D;
+    color: #f4f4f4;
+    width: 100%;
 }
 
 .courses-beneficts img {
@@ -296,7 +303,113 @@
     max-width: 70px;
     height: auto;
   }
-  
+
+  /* b2b styles  */
+.b2b-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #05192D;
+    padding: 2em;
+    color: white;
+    width: 100%;
+}
+
+.b2b-services__separator {
+    display: flex;
+    gap: 2em;
+}
+
+.b2b-services__header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.b2b-services__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.b2b-services__title-highlight {
+    color: #f7922e;
+}
+
+.b2b-services__description {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+    color: #d1d1e9;
+}
+
+/* Botón de acción */
+.b2b-services__button {
+    background-color: #2a9d54;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.b2b-services__button:hover {
+    background-color: #d98329;
+}
+
+/* Sección de imagen */
+.b2b-services__content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.b2b-services__image {
+    max-width: 450px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de empresas */
+.b2b-services__trusted {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.b2b-services__trusted-title {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.b2b-services__logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.b2b-services__logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1em;
+    width: 120px;
+    height: 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.b2b-services__logo {
+    max-width: 100%;
+    height: auto;
+    color: #333;
+}  
   
 @media (max-width: 768px) {
     .stats-container {

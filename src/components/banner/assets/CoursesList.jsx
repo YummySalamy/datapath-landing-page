@@ -47,6 +47,30 @@ const threeCourses = [
         description: "Conviértete en un ingeniero de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
         image: "https://datascientest.com/es/files/2022/02/Property-1DE.png",
         href: ""
+    },
+    {
+        title: "Data Engineer",
+        category: "Machine Learning",
+        course_options: ["Bootcamp", "Tiempo parcial"],
+        description: "Conviértete en un ingeniero de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
+        image: "https://datascientest.com/es/files/2022/02/Property-1DE.png",
+        href: ""
+    },
+    {
+        title: "Data Engineer",
+        category: "Machine Learning",
+        course_options: ["Bootcamp", "Tiempo parcial"],
+        description: "Conviértete en un ingeniero de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
+        image: "https://datascientest.com/es/files/2022/02/Property-1DE.png",
+        href: ""
+    },
+    {
+        title: "Data Engineer",
+        category: "Machine Learning",
+        course_options: ["Bootcamp", "Tiempo parcial"],
+        description: "Conviértete en un ingeniero de datos y aprende a analizar y visualizar datos para tomar decisiones informadas.",
+        image: "https://datascientest.com/es/files/2022/02/Property-1DE.png",
+        href: ""
     }
 ];
 

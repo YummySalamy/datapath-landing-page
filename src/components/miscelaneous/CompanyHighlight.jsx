@@ -9,7 +9,7 @@ const CompanyHighlight = () => {
         <p>
         Datapath se fundó en 2020, desde entonces, tenemos más de <span className="highlight-free">25,000 graduados en más de 10 países de Latinoamerica y España </span>que han comenzado un nuevo futuro con nosotros.
         </p>
-        <button className="learn-more-button">Learn More</button>
+        <button className="learn-more-button">Conoce más</button>
       </div>
       <div className="highlight-right">
         <div className="stat-item">

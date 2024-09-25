@@ -8,8 +8,8 @@
     justify-content: center; */
     word-wrap: break-word;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #333;
-    border-radius: 20px;
+    border: 2px solid #505050;
+    border-radius: 8px;
     width: 300px;
     height: 400px;
     transition: all 0.3s;

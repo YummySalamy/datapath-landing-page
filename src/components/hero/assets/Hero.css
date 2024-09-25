@@ -36,6 +36,11 @@
     filter: drop-shadow(0 2px 20px #ff8512aa);
 }
 
+.basic-hero__buttons {
+    display: flex;
+    gap: 1em;
+}
+
 .hero-button {
     padding: 0.5em 1em;
     border: none;
@@ -50,4 +55,11 @@
 
 .hero-button:hover {
     background-color: #f57429;
+}
+
+.green__highlight {
+    background-color: #2a9d54;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
 }

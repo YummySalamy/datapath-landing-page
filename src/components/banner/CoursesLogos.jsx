@@ -61,7 +61,7 @@ const CoursesLogos = ({ courses = threeCourses }) => {
                 ))}
             </div>
 
-            <Grid elements={courseLogos} columns={4} />
+            <Grid elements={courseLogos} columns={3} />
         </div>
     );
 };

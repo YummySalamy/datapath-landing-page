@@ -12,6 +12,7 @@ import CompanyHighlight from '../components/miscelaneous/CompanyHighlight';
 import UsersReviews from '../components/reviews/UsersReviews';
 import TestimonialList from '../components/testimonials/TestimonialsList';
 import ApplyNow from '../components/miscelaneous/ApplyNow';
+import B2BServices from '../components/banner/B2BServices';
 import WhatsappContact from '../components/floating-buttons/WhatsappContact';
 import './assets/Views.css';
 
@@ -46,6 +47,7 @@ const LandingPage = () => {
             <CompanyLogos />
             <CoursesBeneficts />
             <CompanyHighlight />
+            <B2BServices />
             {/* <LegacyBanner /> */}
             {/* <UsersReviews /> */}
             <TestimonialList />
